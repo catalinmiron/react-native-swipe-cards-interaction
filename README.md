@@ -3,7 +3,7 @@
 __[Swipe cards interaction](https://dribbble.com/shots/2951375-Swipe-cards-interaction-professional-project) by [Valentin Salmon](https://dribbble.com/ValentinSalmon)__
 
 
-Exponent: https://exp.host/@catalinmiron/react-native-swipe-cards-interaction
+Exponent: https://exp.host/@catalinmiron/react-native-swipe-card-interaction
 
 
 ![react-native-swipe-cards-interaction](https://cloud.githubusercontent.com/assets/2805320/24264994/bf063836-100a-11e7-87db-cb42c53a0847.gif)
