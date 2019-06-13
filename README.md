@@ -1,3 +1,9 @@
+### Would you like to support me?
+
+<a href="https://www.buymeacoffee.com/catalinmiron" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+----
+
 ### React Native Swipe cards interaction
 
 __[Swipe cards interaction](https://dribbble.com/shots/2951375-Swipe-cards-interaction-professional-project) by [Valentin Salmon](https://dribbble.com/ValentinSalmon)__
