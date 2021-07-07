@@ -1,4 +1,4 @@
-import { LayoutAnimation, Animated, Dimensions, Text, View, StyleSheet, ScrollView, Image } from 'react-native';
+import { LayoutAnimation, Animated, Dimensions, Text, View, StyleSheet, ScrollView, Image,ImageBackground } from 'react-native';
 import React, { Component } from 'react';
 import { Constants } from 'expo';
 var {height, width} = Dimensions.get('window');
@@ -119,8 +119,8 @@ export default class App extends Component {
           outputRange: [itemHeight * .8, itemHeight, itemHeight],
         })
       }]}>
-        <Image key={i} source={{uri: image}} style={[StyleSheet.AbsoluteFill, {height: itemHeight, width: itemWidth, opacity: 1, resizeMode: 'cover'}]}>
-        <View style={[StyleSheet.AbsoluteFill, {opacity: 0.4, backgroundColor: COLORS[i], width: itemWidth, height: itemHeight}]}></View>
+        <ImageBackground key={i} source={{uri: image}} style={[ {height: itemHeight, width: itemWidth, opacity: 1, resizeMode: 'cover'}]}>
+        <View style={[ {opacity: 0.4, backgroundColor: COLORS[i], width: itemWidth, height: itemHeight}]}></View>
         <Animated.View
             style={[{
               width: itemWidth,
@@ -144,7 +144,7 @@ export default class App extends Component {
               <Text style={{fontSize: fontSize,color: 'rgba(0,0,0,0.4)'}}>{i + 1}</Text>
             </View>
           </Animated.View>
-          </Image>
+          </ImageBackground>
       </Animated.View>
     );
   }
